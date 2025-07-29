@@ -12,6 +12,10 @@ export const resMessage = {
     LOGIN_SUCCESS: "Hello Admin You're logged in successfully!",
     ADD_ENTERPRISE_LOGO: "Enterprise logo has been added to your trusted brands section.",
 
+    DATA_ADDED: "Data added successfully.",
+    FETCHED: "Fetched successfully",
+    UPDATE_BLOG: "Blog member updated successfully",
+    CAREER_DEACTIVATED: "Career deactivated successfully"
 };
 
 export const resStatusCode = {
@@ -33,7 +37,8 @@ export const resStatusCode = {
 };
 
 export const dbTableName = {
-    AUTH: "auths"
+    AUTH: "auths",
+    CATEGORY: "category",
 };
 
 
